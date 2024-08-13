@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0">
+	<title>Nested Tables</title>
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			height: 100vh;
+			margin: 0;
+		}
+
+		table table {
+			border: 2px solid blue;
+		}
+
+		td {
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<h1 style="color: red;">table within table</h1>
+	<table border="2">
+		<tr>
+			<td>Table 1</td>
+			<td> Table 1
+				<table border="2">
+					<tr>
+						<td>Table 2</td>
+						<td>Table 2</td>
+					</tr>
+					<tr>
+						<td>Table 2</td>
+						<td>Table 2</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>Table 1</td>
+			<td>Table 1</td>
+		</tr>
+	</table>
+</body>
+
+</html>
