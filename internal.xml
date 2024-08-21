@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
 <!DOCTYPE address [
    <!ELEMENT address (name,company,phone)>
@@ -13,4 +14,21 @@
 <phone>7891561230</phone>
 <email>rajesh@gmail.com</email>
 <pincode>201308</pincode>
+=======
+<?xml version = "1.0" encoding = "UTF-8" standalone = "yes" ?>
+<!DOCTYPE address [
+   <!ELEMENT address (name,company,phone)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT company (#PCDATA)>
+   <!ELEMENT phone (#PCDATA)>
+]>
+
+<?xml version="1.0"?>
+<address>
+<name>Atul Kumar</name>
+<company>Wipro Technology</company>
+<phone>7891561230</phone>
+<email>rajesh@gmail.com</email>
+<pincode>201308</pincode>
+>>>>>>> c61f3356d05072ee08a9a2cc4060f84f4105074b
 </address>
